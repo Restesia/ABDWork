@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="18AB3B5A-7290-6AE5-F7A0-99AFE50612FB" name="NOMINA">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:58:57 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="61504550-BFE8-26D8-F6A6-8E0DA1E60310">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:59:06 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_trabajadas" id="B16E5F30-B2EA-1B32-BD34-D6D51EDA681E">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:01:41 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_reubicadas" id="D768D4BE-7E9A-ED51-43ED-E8D665BDA931">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:03:51 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nocturnidad" id="AB530FB4-79F3-64C8-FB7F-D030CD5C086F">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:04:19 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_salario_trabajado" id="51635FA8-EDB2-F5DE-D38E-55315A5F2F8D">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:04:58 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total_retencion" id="E4A15B04-7F44-550E-F643-649C9483A4B9">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:11:28 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="B77ABA2F-B439-607D-F129-BE68B2D6800C">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:11:42 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E9FF1119-6813-306C-5289-AFBB129E83E9" name="NOMINA PK">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 13:02:56 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>61504550-BFE8-26D8-F6A6-8E0DA1E60310</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

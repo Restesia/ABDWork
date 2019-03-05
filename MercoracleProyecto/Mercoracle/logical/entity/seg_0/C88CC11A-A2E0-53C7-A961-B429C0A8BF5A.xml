@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C88CC11A-A2E0-53C7-A961-B429C0A8BF5A" name="FACTURA">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:43:59 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>964F8F95-833B-55BB-A1EF-14172F77052A</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="identificativo" id="4CF2158D-E0F1-2AD4-0537-6EB6395579C2">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:44:14 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_secuencial" id="B15EC602-6757-B020-0C85-D5B693F9D95A">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:45:02 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

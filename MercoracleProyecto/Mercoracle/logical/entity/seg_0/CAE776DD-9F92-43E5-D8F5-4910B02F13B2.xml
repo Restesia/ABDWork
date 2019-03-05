@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CAE776DD-9F92-43E5-D8F5-4910B02F13B2" name="OFERTA">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:27:06 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo" id="AE5C94F6-64D4-09DC-5E43-8575F9F7DA39">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:27:35 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="4AFEC530-FE66-3381-CAEF-B1347C83820B">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:27:47 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="702FF5FE-5496-68E2-C586-1A70F94DE3BE">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:30:13 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="responsable" id="11DF0B9E-A62A-CE33-E9EA-896895ACF6ED">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:27:54 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_alta" id="86C2D159-D96E-BB19-C753-54E29B160513">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:29:14 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_baja" id="E9555F59-BDA0-D9F7-0183-43ECC5844ED1">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:29:22 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2EC8942-73C2-EDD7-59A1-0713B11494B5" name="OFERTA PK">
+<createdBy>alumno</createdBy>
+<createdTime>2019-03-05 12:27:39 UTC</createdTime>
+<ownerDesignName>Mercoracle</ownerDesignName>
+<engineerTo>
+<item key="2714A3AD-7AD7-0DBA-531A-DE2DCCAD8CAA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE5C94F6-64D4-09DC-5E43-8575F9F7DA39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
